@@ -1,0 +1,130 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .single_portfolio {
+      height: 250px;
+    }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .header_band h3{
+        font-size: 28px;
+    }
+    .header_menu a, .portfolio_menu ul li {
+      font-size: 14px;
+    }
+    .slider_table_cell h2 {
+      font-size: 35px;
+    }
+    .single_portfolio {
+      height: 200px;
+    }
+    .default_section_video {
+      margin-top: 25px;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .header_band h3{
+        font-size: 20px;
+        display: none;
+    }
+    .header_section .col-xs-10{
+        width: 100%;
+        padding: 0;
+    }
+    .header_menu ul{
+        float: none;
+        text-align: center;
+    }
+    .header_menu a, .portfolio_menu ul li {
+      font-size: 9px;
+        padding: 5px 8px;
+    }
+    
+    .slider_table_cell h2 {
+      font-size: 14px;
+    }
+    .single_service {
+      margin-top: 15px;
+    }
+    .portfolio_section h4 {
+      font-size: 20px;
+    }
+    .portfolio_menu ul{
+        float: left;
+    }
+    .portfolio_menu ul li{
+        font-size: 8px;
+    }
+    .single_portfolio {
+      height: 100px;
+    }
+    .title > h5, .meta > h5 {
+      font-size: 10px;
+      padding: 5px 0;
+    }
+    .single_portfolio_btn > a {
+      font-size: 9px;
+      padding: 4px 11px;
+    }
+    .default_section_video {
+      margin-top: 25px;
+    }
+    .footer_menu ul li a {
+      font-size: 8px;
+      padding: 0 3px;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .header_band h3{
+        font-size: 20px;
+        display: block;
+    }
+    .header_section .col-xs-10{
+        width: 83.33%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header_menu a, .portfolio_menu ul li {
+      font-size: 10px;
+        padding: 6px 10px;
+    }
+    .slider_table_cell h2 {
+      font-size: 22px;
+    }
+    .single_service {
+      margin-top: 15px;
+    }
+    .portfolio_section h4 {
+      font-size: 20px;
+        display: block;
+    }
+    
+    .portfolio_menu ul li{
+        font-size: 10px;
+    }
+    .portfolio_section .col-xs-10{
+        width: 83.33%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .single_portfolio {
+      height: 140px;
+    }
+    .title > h5, .meta > h5 {
+      font-size: 12px;
+      padding: 6px 0;
+    }
+    .single_portfolio_btn > a {
+      font-size: 11px;
+      padding: 5px 12px;
+    }
+    .footer_menu ul li a {
+      font-size: 12px;
+      padding: 0 5px;
+    }
+}
